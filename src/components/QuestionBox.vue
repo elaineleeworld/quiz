@@ -67,7 +67,7 @@ export default {
       this.selectedIndex = index;
       console.log(index);
     },
-    submitAnswer(index) {
+    submitAnswer() {
       let isCorrect = false;
 
       console.log("correct answer", this.currentQuestion.correct_answer);
